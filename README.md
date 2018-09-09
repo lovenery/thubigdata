@@ -30,7 +30,7 @@ docker run -it --rm -w=/root thu_big_data_image /bin/bash
 
 ```bash
 docker run -it --rm --name thu_big_data_box -v `pwd`:/root lovenery/thu
-pip install numpy==1.14.5 pandas matplotlib keras tensorflow sklearn xlrd wheel
+pip install numpy==1.14.5 pandas matplotlib keras tensorflow sklearn xlrd wheel openpyxl
 pip3 install --upgrade setuptools
 pip3 install -r requirements.txt
 
